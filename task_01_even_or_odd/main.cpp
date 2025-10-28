@@ -9,8 +9,11 @@ int main() {
 
     std::cin >> n;
 
-    if (!(n))
-        return 0;
+    if (n % 2 == 0) {
+        std::cout << "even" << std::endl;
+    } else {
+        std::cout << "odd" << std::endl;
+    }
 
     return 0;
 }
