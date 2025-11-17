@@ -1,12 +1,19 @@
 
-#include <iostream>
-#include <iomanip>
 #include <cmath>
+#include <iomanip>
+#include <iostream>
+using namespace std;
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    long long k;
-    if (!(std::cin >> k)) return 0;
-    // TODO: compute the fare as specified and print with two decimals
+    long long suma = 0, km
+                                cout
+                            << "zadaj kilometre";
+    cin >> km;
+    if (km <= 2) {
+        suma = 4;
+        cout << "Cena za taxik " << suma << "euro";
+    } else {
+        suma = 4.00 + 1.50 * ceil(km - 2);
+        cout << "Cena za taxik " << suma << "eur";
+    }
     return 0;
 }

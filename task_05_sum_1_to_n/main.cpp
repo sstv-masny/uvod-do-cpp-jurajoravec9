@@ -1,10 +1,12 @@
 
 #include <iostream>
+using namespace std;
 int main() {
-    std::ios::sync_with_stdio(false);
-    std::cin.tie(nullptr);
-    long long n;
-    if (!(std::cin >> n)) return 0;
-    // TODO: compute sum 1..n (watch overflow; use 64-bit)
+    long long n, suma = 0, i = 1;
+    cout << "zadaj cislo";
+    cin >> n;
+    if (i; i <= n; i++)
+        sum = sum + 1;
+    cout << "sucen cisel n-1 je " << sum;
     return 0;
 }
