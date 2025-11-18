@@ -1,8 +1,9 @@
 
 #include <iostream>
 #include <vector>
+using namespace std;
 int main() {
-    char number[] = {'1', '2', '3', '4', '5', '1', '2', '3', '4', '5'};
+    char number[11] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     std::cout << sizeof(number) << '\n';
 
