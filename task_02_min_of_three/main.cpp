@@ -2,9 +2,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-    long long a, b, c;
+    long long a, b, c, min;
     cout << "Zaddaj tri cisla";
     cin >> a >> b >> c;
+    min = a;
     if (b < min) {
         min = b;
     }

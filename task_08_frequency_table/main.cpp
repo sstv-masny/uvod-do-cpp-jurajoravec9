@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 int main() {
-    int n[101] = ();
+    int n[101] = {0};
 
     n[1] += 1;
     n[2] += 1;

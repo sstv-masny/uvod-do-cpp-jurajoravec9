@@ -4,9 +4,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-    long long suma = 0, km
-                                cout
-                            << "zadaj kilometre";
+    long long suma = 0, km;
+    cout << "zadaj kilometre";
     cin >> km;
     if (km <= 2) {
         suma = 4;

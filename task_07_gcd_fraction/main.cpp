@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include <cstdlib>
-long long gcdll(long long a, long long b) {
+long long gcdll(long long , long long ) {
     // TODO: Euclid's algorithm (handle negatives)
     return 1;
 }
